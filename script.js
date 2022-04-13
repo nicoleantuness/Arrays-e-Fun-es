@@ -7,14 +7,14 @@ function positions(firstPlace, secondPlace, lastPlace){
         console.log(`2° colocado ${podio[0]}`)
         console.log(`3° colocado ${podio[2]}`)
     }else if(podio[2] == "Daniel"){
-        console.log(`1° colocado ${podio[2]}`)
-        console.log(`2° colocado ${podio[1]}`)
-        console.log(`3° colocado ${podio[0]}`)
+        console.log(`1° colocado ${podio[0]}`)
+        console.log(`2° colocado ${podio[2]}`)
+        console.log(`3° colocado ${podio[1]}`)
     }
 }else{
    console.log(`1° colocado ${podio[0]}`)
-   console.log(`2° colocado ${podio[1]}`)
-   console.log(`3° colocado ${podio[2]}`)
+   console.log(`2° colocado ${podio[2]}`)
+   console.log(`3° colocado ${podio[1]}`)
 }
 }
 console.log(positions("Rafael", "Manoel","Daniel"))
