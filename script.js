@@ -13,8 +13,8 @@ function positions(firstPlace, secondPlace, lastPlace){
     }
 }else{
    console.log(`1° colocado ${podio[0]}`)
-   console.log(`2° colocado ${podio[2]}`)
-   console.log(`3° colocado ${podio[1]}`)
+   console.log(`2° colocado ${podio[1]}`)
+   console.log(`3° colocado ${podio[2]}`)
 }
 }
 console.log(positions("Rafael", "Manoel","Daniel"))
